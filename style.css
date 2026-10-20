@@ -1,0 +1,42 @@
+.button {
+  display: inline-block;
+  color: #180d20;
+  background: var(--orange);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 12px 21px;
+  border-radius: 999px;
+  transition: transform .2s, background .2s;
+}
+
+.button:hover {
+  background: var(--gold);
+  transform: translateY(-2px);
+}
+
+footer {
+  border-top: 1px solid #382546;
+  text-align: center;
+  color: #9485a5;
+  padding: 23px;
+  font-size: .85rem;
+}
+
+@media (max-width: 780px) {
+  .content {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+
+  .hero {
+    margin-top: 18px;
+  }
+
+  .site-header {
+    justify-content: center;
+  }
+
+  nav {
+    justify-content: center;
+  }
+}
